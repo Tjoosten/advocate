@@ -292,7 +292,7 @@
 
 		</div>
 		<div class="widget one_fourth">
-			<h5>Newsletter</h5>
+			<h5>Nieuwsbrief</h5>
 
 			<form action="test.php" method="post">
 
