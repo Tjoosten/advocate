@@ -7,28 +7,28 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="stylesheets/flexslider.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/tipsy.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/base.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.miniColors.css" />
-	<link rel="stylesheet" type="text/css" href="stylesheets/media.queries.css" />
-	<link rel="stylesheet" type="text/css" href="javascripts/fancybox/jquery.fancybox-1.3.4.css" />
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/flexslider.css" />
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/tipsy.css" />
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/base.css" />
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.miniColors.css" />
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/media.queries.css" />
+	<link rel="stylesheet" type="text/css" href="assets/javascripts/fancybox/jquery.fancybox-1.3.4.css" />
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico|Cabin:400,700,600,500">
 
 	<!-- Javascripts -->
-	<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="javascripts/html5shiv.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.tipsy.js"></script>
-	<script type="text/javascript" src="javascripts/fancybox/jquery.fancybox-1.3.4.js"></script>
-	<script type="text/javascript" src="javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.mobilemenu.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.infieldlabel.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.twitter.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.quicksand.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="javascripts/jquery.miniColors.js"></script>
-	<script type="text/javascript" src="javascripts/demo.js"></script>
-	<script type="text/javascript" src="javascripts/advocate.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascripts/html5shiv.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.tipsy.js"></script>
+	<script type="text/javascript" src="assets/javascripts/fancybox/jquery.fancybox-1.3.4.js"></script>
+	<script type="text/javascript" src="assets/javascripts/fancybox/jquery.easing-1.3.pack.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.infieldlabel.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.twitter.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.quicksand.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.miniColors.js"></script>
+	<script type="text/javascript" src="assets/javascripts/demo.js"></script>
+	<script type="text/javascript" src="assets/javascripts/advocate.js"></script>
 	<script src="https://use.fontawesome.com/d7bcc217c3.js"></script>
 
 	<!-- Favicons -->
@@ -109,7 +109,7 @@
 
 		<!-- Start Page -->
 		<div class="page">
-			<img style="width: 100%; border-radius: 4px; height: 353px; margin-bottom: 15px;" src="images/about.jpg" alt="" />
+			<img style="width: 100%; border-radius: 4px; height: 353px; margin-bottom: 15px;" src="assets/images/about.jpg" alt="" />
 
 			<div class="sub_heading">
 				<h2>Stap mee in ons verhaal</h2>
@@ -254,10 +254,10 @@
 						<span class="line"></span>
 					</div>
 					<ul>
-						<li><img style="width: 127px; height:50px;" src="images/content/sponsor-1.jpg" alt="Sponsor 1" /></li>
-						<li class="last"><img style="width: 127px; height: 50px;" src="images/content/sponsor-2.jpg" alt="Sponsor 2" /></li>
-						<li><img style="width: 127px; height:50px;" src="images/content/sponsor-3.jpg" alt="Sponsor 3" /></li>
-						<li class="last"><img style="width: 127px; height: 50px;" src="images/content/sponsor-4.jpg" alt="Sponsor 4" /></li>
+						<li><img style="width: 127px; height:50px;" src="assets/images/content/sponsor-1.jpg" alt="Sponsor 1" /></li>
+						<li class="last"><img style="width: 127px; height: 50px;" src="assets/images/content/sponsor-2.jpg" alt="Sponsor 2" /></li>
+						<li><img style="width: 127px; height:50px;" src="assets/images/content/sponsor-3.jpg" alt="Sponsor 3" /></li>
+						<li class="last"><img style="width: 127px; height: 50px;" src="assets/images/content/sponsor-4.jpg" alt="Sponsor 4" /></li>
 					</ul>
 				</div>
 				<!-- End Sponsors -->
@@ -294,7 +294,7 @@
 		<div class="widget one_fourth">
 			<h5>Newsletter</h5>
 
-			<form action="javascript:;" method="post">
+			<form action="test.php" method="post">
 
 				<p>Registreer je op onze nieuwsbrief.</p>
 
@@ -325,7 +325,7 @@
 		</div>
 
 		<div class="copy">
-			<p>Copyright &copy;2012 Activisme.be - Alle rechten voorbehouden.</p>
+			<p>Copyright &copy {{ date('Y') }} Activisme.be - Alle rechten voorbehouden.</p>
 		</div>
 
 	</div>
