@@ -294,7 +294,7 @@
 		<div class="widget one_fourth">
 			<h5>Nieuwsbrief</h5>
 
-			<form action="test.php" method="post">
+			<form action="{{ base_url('newsletter/store') }}" method="post">
 
 				<p>Registreer je op onze nieuwsbrief.</p>
 
