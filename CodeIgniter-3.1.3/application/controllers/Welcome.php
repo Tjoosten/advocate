@@ -2,9 +2,9 @@
 
 class Welcome extends CI_Controller
 {
-	public $user        = [];
-	public $permissions = [];
-	public $abilities   = [];
+	public $user        = []; /** @var array  */
+	public $permissions = []; /** @var array  */
+	public $abilities   = []; /** @var array  */
 
 	public function __construct()
 	{
@@ -20,6 +20,9 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
-		$this->blade->render('index');
+		$data['events'] = Manifest::take(4)->get();
+		$data['news']   = Articles::take(3)->get();
+
+		$this->blade->render('index', $data);
 	}
 }

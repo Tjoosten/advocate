@@ -187,7 +187,7 @@
 				<!-- Start News -->
 				<div class="news one_third">
 					<div class="box_heading">
-						<h2>Blog</h2>
+						<h2>Nieuws</h2>
 						<span class="line"></span>
 					</div>
 					<ul>

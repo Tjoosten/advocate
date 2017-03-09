@@ -12,12 +12,21 @@
 	},
 	"require": {
 		"php": ">=5.2.4",
-		"robmorgan/phinx": "^0.8.0"
+		"robmorgan/phinx": "^0.8.0",
+	  	"illuminate/database": "5.4.*",
+	  	"illuminate/events": "5.4.*"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
-	"require-dev": {
+  	"autoload": {
+		"classmap": [
+	  		"application/core",
+	  		"application/models",
+	  		"application/libraries"
+		]
+  	},
+  	"require-dev": {
 		"mikey179/vfsStream": "1.1.*"
 	}
 }
