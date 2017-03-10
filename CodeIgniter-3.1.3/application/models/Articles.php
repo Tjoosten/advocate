@@ -21,11 +21,21 @@ class Articles extends Model
 	 */
 	protected $fillable = [];
 
+    /**
+     * The article author relation.
+     *
+     * @return mixed
+     */
 	public function author()
 	{
 		return $this->belongsTo();
 	}
 
+    /**
+     * Comments relationship for the article.
+     *
+     * @return mixed
+     */
 	public function comments()
 	{
 		return $this->belongsToMany()
